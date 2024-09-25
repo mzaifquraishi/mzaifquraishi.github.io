@@ -156,15 +156,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-function openUrl() {
-  var subject= document.getElementsByTagName('input')[0].value;
-  var body = document.getElementsByTagName('input')[0].value+"\r\n\r\n<";
-  body += window.location.href;
-  body += ">";
-  var uri = "mailto:mzaifquraishi@gmail.com?subject=";
-  uri += encodeURIComponent(subject);
-  uri += "&body=";
-  uri += encodeURIComponent(body);
-  window.open(uri);
-}
