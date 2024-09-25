@@ -1635,7 +1635,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .input-wrapper {  }
 
   .form-btn {
-    width: max-content;
     margin-left: auto;
   }
   
